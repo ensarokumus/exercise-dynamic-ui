@@ -9,25 +9,25 @@
   <body>
     <nav>
       <menu>
-        <menuitem id="demo1">
-          <button>Dropdown Menu ></button>
+        <menuitem>
+          <button onclick="toggleMain()">Dropdown Menu ></button>
           <menu class="dc-main">
-            <menuitem class="visible" id="about"><a>About</a></menuitem>
-            <menuitem class="invisible" id="settings">
-              <button>Settings ></button>
+            <menuitem id="about"><a>About</a></menuitem>
+            <menuitem id="settings">
+              <button onclick="toggleSettings()">Settings ></button>
               <menu class="dc-settings">
-                <menuitem class="visible" id="s1"><a>Test 1</a></menuitem>
-                <menuitem class="visible" id="s2"><a>Test 2</a></menuitem>
-                <menuitem class="visible" id="s3"><a>Test 3</a></menuitem>
-                <menuitem class="visible" id="s4"><a>Test 4</a></menuitem>
+                <menuitem><a>Test 1</a></menuitem>
+                <menuitem><a>Test 2</a></menuitem>
+                <menuitem><a>Test 3</a></menuitem>
+                <menuitem><a>Test 4</a></menuitem>
               </menu>
             </menuitem>
-            <menuitem id="more" class="visible">
-              <button>More ></button>
+            <menuitem>
+              <button onclick="toggleMore()">More ></button>
               <menu class="dc-more">
-                <menuitem class="visible" id="m1"><a>Test 1</a></menuitem>
-                <menuitem class="visible" id="m1"><a>Test 2</a></menuitem>
-                <menuitem class="visible" id="m1"><a>Test 3</a></menuitem>
+                <menuitem><a>Test 1</a></menuitem>
+                <menuitem><a>Test 2</a></menuitem>
+                <menuitem><a>Test 3</a></menuitem>
               </menu>
             </menuitem>
           </menu>

@@ -60,13 +60,17 @@ nav a:hover {
 }
 
 .dc-main {
-  display: block;
+  display: none;
 }
 
 .dc-settings {
-  display: block;
+  display: none;
 }
 
 .dc-more {
+  display: none;
+}
+
+.show {
   display: block;
 }

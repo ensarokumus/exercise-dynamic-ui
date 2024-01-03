@@ -1,10 +1,11 @@
-function dropDown() {
-  const element = document.createElement('div');
-
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
-  return element;
+function toggleMain() {
+  document.querySelector(".dc-main").classList.toggle("show");
 }
 
-document.body.appendChild(dropDown());
+function toggleSettings() {
+  document.querySelector(".dc-settings").classList.toggle("show");
+}
+
+function toggleMore() {
+  document.querySelector(".dc-more").classList.toggle("show");
+}
